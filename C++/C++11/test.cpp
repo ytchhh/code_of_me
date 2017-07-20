@@ -154,7 +154,7 @@ int main()
 */
 #endif
 
-#if 1
+#if 0
 
 /*
 	我们在C++中搜用过pair，，用pair可以使用make_pair构造，构造一个包含两种不同类型的数据的类型，比如：以下代码：
@@ -180,3 +180,11 @@ int main()
 }
 #endif
 
+#if 1
+/*
+	alignof和alignas
+	C++11在新标准中为了支持对齐，引入了两个关键字，操作符alignof，对齐描述符alignas。
+	操作符alignof的操作数表示一个定义完整的自定义类型或者内置类型或者变量，返回的值是一个size_t类型的整数常量。
+	alignas可以用来改变一个数据类型的对齐属性。
+*/
+#endif
