@@ -25,4 +25,4 @@ int main()
 	cout<<"max bucket size = "<<iht.max_bucket_count()<<endl;
 
 	return 0;
-
+}
