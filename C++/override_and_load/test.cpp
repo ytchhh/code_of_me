@@ -125,7 +125,7 @@ public:
 class Derived:public Base
 {
 public:
-	void f(int x)
+	void f(float x)
 	{
 		cout<<"Derived::f(float)"<<endl;
 	}
