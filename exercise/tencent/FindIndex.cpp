@@ -28,12 +28,6 @@
 #include <cmath>
 using namespace std;
 
-class A
-{
-	virtual void fun()
-	{}
-	double*	be;
-};
 
 int main()
 {
