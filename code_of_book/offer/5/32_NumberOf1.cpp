@@ -65,7 +65,7 @@ using namespace std;
 
 
 
-innt NumberOf1Between1AndN_Solution(int n)
+int NumberOf1Between1AndN_Solution(int n)
 {
 		if(n < 1)
 				return 0;
@@ -87,6 +87,6 @@ innt NumberOf1Between1AndN_Solution(int n)
 }
 int main()
 {
-		cout<<NumberOf1Between1AndN_Solution(55)<<endl;
+		cout<<NumberOf1Between1AndN_Solution(11)<<endl;
 		return 0;
 }
